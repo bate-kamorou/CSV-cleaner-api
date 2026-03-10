@@ -14,7 +14,7 @@ A RESTful API for cleaning and processing CSV files.
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bate-kamorou/CSV-cleaner-api.git
 cd CSV_cleaner_api
 pip install -r requirements.txt
 ```
@@ -25,12 +25,11 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The API will be available at `http://localhost:5000`
+The API will be available at `http://127.0.0.1:8000/`
 
 ## API Endpoints
 
 - `POST /clean-csv` - Upload and clean  a CSV file
-- `GET /clean/<file_id>` - Clean uploaded CSV
 - `GET /download/<file_id>` - Download cleaned CSV
 
 ## Requirements
